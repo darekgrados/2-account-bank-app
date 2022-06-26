@@ -51,7 +51,7 @@ int main ()
         counter++;
     } while (pin != pinNew && pin != pinJohn && counter < 3);
     
-    if (counter >= 3)
+    if (counter > 3)
         cout << "To much wrong attempts, your account is blocked!"; 
 
     //system("cls");
